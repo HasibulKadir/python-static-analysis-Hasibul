@@ -14,7 +14,7 @@ def divide(a: int, b: int) -> float:
         raise ValueError("Cannot divide by zero.")
     return a / b
 
-
+#asd
 print(add(3, "five"))  # This will raise an error
 print(greet(123))  # This will raise an error
 print(divide(10, "two"))  # This will raise an error
