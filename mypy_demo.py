@@ -15,6 +15,6 @@ def divide(a: int, b: int) -> float:
     return a / b
 
 #asd
-print(add(3, "five"))  # This will raise an error
-print(greet(123))  # This will raise an error
-print(divide(10, "two"))  # This will raise an error
+print(add(3, 5))  # This will raise an error
+print(greet("hi"))  # This will raise an error
+print(divide(10, 2))  # This will raise an error
