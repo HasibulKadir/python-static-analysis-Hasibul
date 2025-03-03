@@ -15,7 +15,6 @@ def divide(a: int, b: int) -> float:
     return a / b
 
 
-# Function calls
-print(add(3, 5))  # Expected output: 8
-print(greet("Alice"))  # Expected output: "Hello, Alice!"
-print(divide(10, 2))  # Expected output: 5.0
+print(add(3, "five"))  # This will raise an error
+print(greet(123))  # This will raise an error
+print(divide(10, "two"))  # This will raise an error
